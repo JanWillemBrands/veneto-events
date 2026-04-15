@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
 Generate a combined RSS feed from all Veneto event scrapers.
+Combines multi-date events (e.g. opera with 5 showings) into a single item.
 Output: docs/events.rss (served via GitHub Pages)
 """
 
 import os
 import sys
+from collections import OrderedDict
 from datetime import datetime
 import feedgenerator
 
@@ -14,6 +16,40 @@ from scrape_la_fenice import scrape as scrape_la_fenice
 
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "events.rss")
+
+
+def format_date(dt):
+    """Format datetime as 'Wed 15 Apr 18:00'."""
+    return dt.strftime("%a %d %b %H:%M")
+
+
+def combine_events(events):
+    """Group events by URL (same production = same URL) and merge dates."""
+    grouped = OrderedDict()
+    for ev in events:
+        url = ev["url"]
+        if url in grouped:
+            grouped[url]["dates"].append(datetime.fromisoformat(ev["start"]))
+        else:
+            grouped[url] = {
+                **ev,
+                "dates": [datetime.fromisoformat(ev["start"])],
+            }
+
+    combined = []
+    for item in grouped.values():
+        item["dates"].sort()
+        # Use earliest future date as the sort key
+        item["first_date"] = item["dates"][0]
+        # Format all dates into a readable string
+        if len(item["dates"]) == 1:
+            item["dates_display"] = format_date(item["dates"][0])
+        else:
+            item["dates_display"] = " | ".join(format_date(d) for d in item["dates"])
+        combined.append(item)
+
+    combined.sort(key=lambda e: e["first_date"])
+    return combined
 
 
 def main():
@@ -28,7 +64,8 @@ def main():
     all_events = bru_zane_events + la_fenice_events
     all_events.sort(key=lambda e: e["start"])
 
-    print(f"Total: {len(all_events)} upcoming events")
+    combined = combine_events(all_events)
+    print(f"Total: {len(all_events)} showings → {len(combined)} unique events")
 
     feed = feedgenerator.Rss201rev2Feed(
         title="Veneto Events — Concerts & Opera in Venice",
@@ -38,19 +75,18 @@ def main():
         language="en",
     )
 
-    for ev in all_events:
-        # Build description with venue, type, and source
-        desc_parts = []
+    for ev in combined:
+        # Description: dates on first line, then type — venue — source
+        desc_parts = [ev["dates_display"]]
+        meta = []
         if ev.get("type"):
-            desc_parts.append(ev["type"])
+            meta.append(ev["type"])
         if ev.get("venue"):
-            desc_parts.append(ev["venue"])
-        if ev.get("date_display"):
-            desc_parts.append(ev["date_display"])
-        desc_parts.append(ev.get("source", ""))
-        description = " — ".join(p for p in desc_parts if p)
+            meta.append(ev["venue"])
+        meta.append(ev.get("source", ""))
+        desc_parts.append(" — ".join(p for p in meta if p))
+        description = "\n".join(desc_parts)
 
-        # Include thumbnail via enclosure if available
         enclosures = []
         if ev.get("image"):
             enclosures.append(feedgenerator.Enclosure(
@@ -59,14 +95,12 @@ def main():
                 mime_type="image/jpeg",
             ))
 
-        start_dt = datetime.fromisoformat(ev["start"])
-
         feed.add_item(
-            title=f"{ev['title']} — {ev.get('venue', ev.get('location', 'Venice'))}",
+            title=ev["title"],
             link=ev["url"],
             description=description,
-            pubdate=start_dt,
-            unique_id=f"{ev['url']}#{ev['start']}",
+            pubdate=ev["first_date"],
+            unique_id=ev["url"],
             enclosures=enclosures if enclosures else None,
         )
 
