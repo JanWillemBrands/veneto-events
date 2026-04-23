@@ -7,6 +7,7 @@ Output: docs/events.rss (served via GitHub Pages)
 
 import os
 import sys
+import time
 import traceback
 from collections import OrderedDict
 from datetime import datetime
@@ -75,19 +76,31 @@ def main():
     errors = []
 
     for name, scraper in SCRAPERS:
-        try:
-            print(f"Scraping {name}...")
-            events = scraper()
-            print(f"  Found {len(events)} events")
-            all_events.extend(events)
-        except Exception as e:
-            print(f"  ERROR scraping {name}: {e}")
-            traceback.print_exc()
-            errors.append(name)
+        for attempt in range(1, 3):
+            try:
+                print(f"Scraping {name}..." if attempt == 1 else f"  Retry {name}...")
+                events = scraper()
+                print(f"  Found {len(events)} events")
+                all_events.extend(events)
+                break
+            except Exception as e:
+                print(f"  ERROR scraping {name} (attempt {attempt}): {e}")
+                if attempt == 1:
+                    time.sleep(5)
+                else:
+                    traceback.print_exc()
+                    errors.append(name)
 
     if not all_events:
-        print("No events found from any source!")
-        return 1
+        print("WARNING: No events found from any source.")
+        if errors:
+            print(f"Failed scrapers: {', '.join(errors)}")
+        if os.path.exists(OUTPUT_FILE):
+            print(f"Keeping existing feed at {OUTPUT_FILE}")
+            return 0
+        else:
+            print("No existing feed to fall back on.")
+            return 1
 
     all_events.sort(key=lambda e: e["start"])
     combined = combine_events(all_events)
