@@ -5,6 +5,7 @@ Combines multi-date events (e.g. opera with 5 showings) into a single item.
 Output: docs/events.rss (served via GitHub Pages)
 """
 
+import json
 import os
 import sys
 import time
@@ -133,6 +134,41 @@ def is_excluded(event):
     return False
 
 
+def load_fenice_events():
+    """Load La Fenice events uploaded by the iPad app via GitHub API."""
+    fenice_file = os.path.join(OUTPUT_DIR, "fenice.json")
+    if not os.path.exists(fenice_file):
+        return []
+    try:
+        with open(fenice_file, "r") as f:
+            data = json.load(f)
+        events = []
+        for ev in data.get("events", []):
+            start = ev.get("start", "")
+            if not start:
+                continue
+            try:
+                dt = datetime.fromisoformat(start)
+            except Exception:
+                continue
+            if dt < datetime.now():
+                continue
+            events.append({
+                "title": ev.get("title", ""),
+                "start": start,
+                "url": ev.get("url", ""),
+                "venue": ev.get("venue", "La Fenice"),
+                "type": ev.get("type", ""),
+                "source": "La Fenice",
+                "image": ev.get("image", ""),
+            })
+        print(f"  Loaded {len(events)} La Fenice events from fenice.json")
+        return events
+    except Exception as e:
+        print(f"  WARNING: Could not read fenice.json: {e}")
+        return []
+
+
 def main():
     all_events = []
     errors = []
@@ -159,8 +195,11 @@ def main():
                     traceback.print_exc()
                     errors.append(name)
 
-    # Preserve events from failed scrapers and sources not covered by any scraper
-    # (e.g. La Fenice, which is scraped by the iPad app and pushed manually)
+    # Load La Fenice events uploaded by the iPad app
+    fenice_events = load_fenice_events()
+    all_events.extend(fenice_events)
+
+    # Preserve events from failed scrapers
     scraped_sources = set(name for name, _ in SCRAPERS) - set(errors)
     preserve_sources = set(errors)
     if os.path.exists(OUTPUT_FILE):
