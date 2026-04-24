@@ -16,7 +16,6 @@ from email.utils import parsedate_to_datetime
 import feedgenerator
 
 from scrape_bru_zane import scrape as scrape_bru_zane
-from scrape_la_fenice import scrape as scrape_la_fenice
 from scrape_barcoteatro import scrape as scrape_barcoteatro
 from scrape_opv import scrape as scrape_opv
 from scrape_pollini import scrape as scrape_pollini
@@ -24,9 +23,9 @@ from scrape_pollini import scrape as scrape_pollini
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "events.rss")
 
+# La Fenice is scraped directly by the iPad app (Cloudflare blocks GitHub IPs)
 SCRAPERS = [
     ("Bru Zane", scrape_bru_zane),
-    ("La Fenice", scrape_la_fenice),
     ("Barco Teatro", scrape_barcoteatro),
     ("OPV", scrape_opv),
     ("Pollini", scrape_pollini),
@@ -49,7 +48,7 @@ def format_dates_by_month(dates):
     return " | ".join(parts)
 
 
-SOURCE_NAMES = [name for name, _ in SCRAPERS]
+SOURCE_NAMES = [name for name, _ in SCRAPERS] + ["La Fenice"]
 
 
 def load_existing_items_for_sources(sources):
@@ -117,6 +116,23 @@ def combine_events(events):
     return combined
 
 
+EXCLUDE_KEYWORDS = [
+    "seminario", "masterclass", "workshop", "convegno", "lezione",
+    "conferenza", "musicoterapia", "degustazione", "tavola rotonda",
+]
+
+
+def is_excluded(event):
+    title = event.get("title", "").lower()
+    etype = event.get("type", "").lower()
+    for kw in EXCLUDE_KEYWORDS:
+        if kw in title or kw in etype:
+            return True
+    if etype == "altro":
+        return True
+    return False
+
+
 def main():
     all_events = []
     errors = []
@@ -126,7 +142,13 @@ def main():
             try:
                 print(f"Scraping {name}..." if attempt == 1 else f"  Retry {name}...")
                 events = scraper()
-                print(f"  Found {len(events)} events")
+                before = len(events)
+                events = [e for e in events if not is_excluded(e)]
+                excluded = before - len(events)
+                if excluded:
+                    print(f"  Found {before} events, excluded {excluded} (talks/workshops)")
+                else:
+                    print(f"  Found {len(events)} events")
                 all_events.extend(events)
                 break
             except Exception as e:
@@ -137,8 +159,23 @@ def main():
                     traceback.print_exc()
                     errors.append(name)
 
-    if errors:
-        preserved = load_existing_items_for_sources(set(errors))
+    # Preserve events from failed scrapers and sources not covered by any scraper
+    # (e.g. La Fenice, which is scraped by the iPad app and pushed manually)
+    scraped_sources = set(name for name, _ in SCRAPERS) - set(errors)
+    preserve_sources = set(errors)
+    if os.path.exists(OUTPUT_FILE):
+        try:
+            tree = ET.parse(OUTPUT_FILE)
+            for item_el in tree.findall(".//item"):
+                desc = (item_el.findtext("description") or "")
+                for s in SOURCE_NAMES:
+                    if s in desc and s not in scraped_sources:
+                        preserve_sources.add(s)
+                        break
+        except Exception:
+            pass
+    if preserve_sources:
+        preserved = load_existing_items_for_sources(preserve_sources)
         all_events.extend(preserved)
 
     if not all_events:
