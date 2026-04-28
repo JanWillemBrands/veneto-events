@@ -343,6 +343,15 @@
       "venue" : "Malibran Theatre"
     },
     {
+      "image" : "",
+      "source" : "La Fenice",
+      "start" : "2026-06-19",
+      "title" : "Glauco Venier Quartetto Nuovo",
+      "type" : "Venezia Jazz Festival",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/glauco-venier%e2%80%a8quartetto-nuovo\/",
+      "venue" : "Sale Apollinee"
+    },
+    {
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Corrado-Rovaris_01.jpeg",
       "source" : "La Fenice",
       "start" : "2026-06-19",
@@ -368,6 +377,15 @@
       "type" : "Concerti 2025\/ 26",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/season-25-26-corrado-rovaris-conducts-honegger-piazzolla-and-mozart\/",
       "venue" : "Malibran Theatre"
+    },
+    {
+      "image" : "",
+      "source" : "La Fenice",
+      "start" : "2026-06-25",
+      "title" : "Andrea Sabatino – Fatata",
+      "type" : "Venezia Jazz Festival",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/andrea-sabatino-fatata\/",
+      "venue" : "Sale Apollinee"
     },
     {
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/08_Venere_Sciarrino-1.jpg",
@@ -701,6 +719,15 @@
       "type" : "Ballett 2025\/26",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/dance-25-26-hamburger-kammerballett\/",
       "venue" : "Malibran Theatre"
+    },
+    {
+      "image" : "",
+      "source" : "La Fenice",
+      "start" : "2026-10-17",
+      "title" : "Marcin Wasilewski trio",
+      "type" : "VENEZIA JAZZ FESTIVAL FALL EDITION",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/marcin-wasilewski-trio-2\/",
+      "venue" : "Sale Apollinee"
     },
     {
       "image" : "",
