@@ -1,24 +1,6 @@
 {
   "events" : [
     {
-      "image" : "",
-      "source" : "La Fenice",
-      "start" : "2026-05-02",
-      "title" : "Magenta and Francesco Olivato Trio",
-      "type" : "JAZZ",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/jazz-magenta-and-francesco-olivato-trio\/",
-      "venue" : "Sale Apollinee"
-    },
-    {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/1-7.jpg",
-      "source" : "La Fenice",
-      "start" : "2026-05-02",
-      "title" : "Ton Koopman conducts Mozart",
-      "type" : "Concerti 2025\/ 26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/season-25-26-ton-koopman-conducts-mozart\/",
-      "venue" : "Malibran Theatre"
-    },
-    {
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/1-7.jpg",
       "source" : "La Fenice",
       "start" : "2026-05-03",
