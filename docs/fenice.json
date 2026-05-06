@@ -480,6 +480,15 @@
     {
       "image" : "",
       "source" : "La Fenice",
+      "start" : "2026-09-14",
+      "title" : "L'Antidote in concerto",
+      "type" : "evento in collaborazione",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/lantidote-in-concerto\/",
+      "venue" : "Sale Apollinee"
+    },
+    {
+      "image" : "",
+      "source" : "La Fenice",
       "start" : "2026-09-17",
       "title" : "Ettore Pagano e Massimo Spada",
       "type" : "Archivio Musicale Guido Alberto Fano Onlus",
@@ -682,6 +691,15 @@
       "title" : "Marcin Wasilewski trio",
       "type" : "VENEZIA JAZZ FESTIVAL FALL EDITION",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/marcin-wasilewski-trio-2\/",
+      "venue" : "Sale Apollinee"
+    },
+    {
+      "image" : "",
+      "source" : "La Fenice",
+      "start" : "2026-10-19",
+      "title" : "Leo Middea in concerto",
+      "type" : "evento in collaborazione",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/leo-middea-in-concerto\/",
       "venue" : "Sale Apollinee"
     },
     {
