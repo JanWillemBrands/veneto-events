@@ -1,60 +1,6 @@
 {
   "events" : [
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Screenshot-2026-04-02-alle-08.50.39.png",
-      "source" : "La Fenice",
-      "start" : "2026-05-08",
-      "title" : "Martha Graham Dance Company",
-      "type" : "Ballett 2025\/26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/dance-25-26-martha-graham-dance-company\/",
-      "venue" : "La Fenice Opera House"
-    },
-    {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Screenshot-2026-04-02-alle-08.59.21-e1775113269945.png",
-      "source" : "La Fenice",
-      "start" : "2026-05-08",
-      "title" : "John Axelrod conducts Daugherty, Copland and Ives",
-      "type" : "Concerti 2025\/ 26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/season-25-26-john-axelrod-conducts-daugherty-copland-and-ives\/",
-      "venue" : "Malibran Theatre"
-    },
-    {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Screenshot-2026-04-02-alle-08.50.39.png",
-      "source" : "La Fenice",
-      "start" : "2026-05-09",
-      "title" : "Martha Graham Dance Company",
-      "type" : "Ballett 2025\/26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/dance-25-26-martha-graham-dance-company\/",
-      "venue" : "La Fenice Opera House"
-    },
-    {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/04\/Johnaxelrod_2012.jpg",
-      "source" : "La Fenice",
-      "start" : "2026-05-09",
-      "title" : "Concert conducted by John Axelrod (UNDER 35)",
-      "type" : "Under 35",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/concerto-diretto-da-john-axelrod-under-35\/",
-      "venue" : "Malibran Theatre"
-    },
-    {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Screenshot-2026-04-02-alle-08.50.39.png",
-      "source" : "La Fenice",
-      "start" : "2026-05-10",
-      "title" : "Martha Graham Dance Company",
-      "type" : "Ballett 2025\/26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/dance-25-26-martha-graham-dance-company\/",
-      "venue" : "La Fenice Opera House"
-    },
-    {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Screenshot-2026-04-02-alle-08.59.21-e1775113269945.png",
-      "source" : "La Fenice",
-      "start" : "2026-05-10",
-      "title" : "John Axelrod conducts Daugherty, Copland and Ives",
-      "type" : "Concerti 2025\/ 26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/season-25-26-john-axelrod-conducts-daugherty-copland-and-ives\/",
-      "venue" : "Malibran Theatre"
-    },
-    {
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2023\/02\/Screenshot-2024-02-28-alle-15.42.10.png",
       "source" : "La Fenice",
       "start" : "2026-05-14",
@@ -440,6 +386,15 @@
       "type" : "Opera 2025\/ 26",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/season-25-26-venere-e-adone\/",
       "venue" : "La Fenice Opera House"
+    },
+    {
+      "image" : "",
+      "source" : "La Fenice",
+      "start" : "2026-07-02",
+      "title" : "Tomorrow's Jazz Night - Kairos and Impulse Quartet",
+      "type" : "Veneto Jazz Festival",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/tomorrows-jazz-night-kairos-impulse-quartet\/",
+      "venue" : "Sale Apollinee"
     },
     {
       "image" : "",
