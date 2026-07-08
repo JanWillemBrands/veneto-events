@@ -1,15 +1,6 @@
 {
   "events" : [
     {
-      "image" : "",
-      "source" : "La Fenice",
-      "start" : "2026-07-08",
-      "title" : "Sofi Paez in concerto",
-      "type" : "evento in collaborazione",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/sofi-paez-in-concerto\/",
-      "venue" : "Sale Apollinee"
-    },
-    {
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/meister-cornelius-0386-c-matthias-baus-65656f18-f2dee1b2@480ll-e1778760745203.jpg",
       "source" : "La Fenice",
       "start" : "2026-07-09",
