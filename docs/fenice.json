@@ -1,60 +1,6 @@
 {
   "events" : [
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/meister-cornelius-0386-c-matthias-baus-65656f18-f2dee1b2@480ll-e1778760745203.jpg",
-      "source" : "La Fenice",
-      "start" : "2026-07-10",
-      "title" : "Cornelius Meister conducts Strauss, Dvořák and Brahms",
-      "type" : "Concerti 2025\/ 26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/season-25-26-cornelius-meister-conducts-strauss-dvorak-and-brahms\/",
-      "venue" : "La Fenice Opera House"
-    },
-    {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/12\/2021-12-Sokolov-C-Oscar-Tursunov-1-scaled.jpg",
-      "source" : "La Fenice",
-      "start" : "2026-07-11",
-      "title" : "Grigory Sokolov",
-      "type" : "Musikàmera",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/musikamera-grigory-sokolov\/",
-      "venue" : "La Fenice Opera House"
-    },
-    {
-      "image" : "",
-      "source" : "La Fenice",
-      "start" : "2026-07-14",
-      "title" : "Lauryyn in concerto",
-      "type" : "evento in collaborazione",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/lauryyn-in-concerto\/",
-      "venue" : "Sale Apollinee"
-    },
-    {
-      "image" : "",
-      "source" : "La Fenice",
-      "start" : "2026-07-15",
-      "title" : "Degenerated Music –  I Solisti Veneti Concert",
-      "type" : "evento in collaborazione",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/degenerated-music-i-solisti-veneti-concert\/",
-      "venue" : "Sale Apollinee"
-    },
-    {
-      "image" : "",
-      "source" : "La Fenice",
-      "start" : "2026-07-15",
-      "title" : "Il barbiere di Siviglia: La Fenice at 74th Ljubljana Festival",
-      "type" : "tournée",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/il-barbiere-di-siviglia-la-fenice-at-74th-ljubljana-festival\/",
-      "venue" : "Ljubljana - Cankarjev dom"
-    },
-    {
-      "image" : "",
-      "source" : "La Fenice",
-      "start" : "2026-07-16",
-      "title" : "Il barbiere di Siviglia: La Fenice at 74th Ljubljana Festival",
-      "type" : "tournée",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/il-barbiere-di-siviglia-la-fenice-at-74th-ljubljana-festival\/",
-      "venue" : "Ljubljana - Cankarjev dom"
-    },
-    {
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/elisir-2-1-e1783501368320.jpg",
       "source" : "La Fenice",
       "start" : "2026-08-26",
@@ -91,10 +37,19 @@
       "venue" : "Malibran Theatre"
     },
     {
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/07\/Screenshot-2026-07-31-alle-10.56.34.png",
+      "source" : "La Fenice",
+      "start" : "2026-09-05",
+      "title" : "La La Land - In Concert",
+      "type" : "evento in collaborazione",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/la-la-land-in-concert\/",
+      "venue" : "La Fenice Opera House"
+    },
+    {
       "image" : "",
       "source" : "La Fenice",
       "start" : "2026-09-14",
-      "title" : "L’Antidote in concerto",
+      "title" : "L'Antidote in concerto",
       "type" : "evento in collaborazione",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/lantidote-in-concerto\/",
       "venue" : "Sale Apollinee"
@@ -172,7 +127,7 @@
       "venue" : "Sale Apollinee"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Callegari-Daniele_01-e1782976558593.jpg",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Callegari-Daniele_01-e1784192929755.jpg",
       "source" : "La Fenice",
       "start" : "2026-09-25",
       "title" : "Daniele Callegari conducts Bizet and Čajkovskij",
@@ -199,7 +154,7 @@
       "venue" : "Malibran Theatre"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Neil-Thomson-Credito3-Rafaella-Pessoa4.jpg",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Neil-Thomson-Credito3-Rafaella-Pessoa4-e1784192635349.jpg",
       "source" : "La Fenice",
       "start" : "2026-10-01",
       "title" : "Neil Thomson conducts Rimsky-Korsakov, Rodrigo and Elgar",
@@ -221,7 +176,7 @@
       "source" : "La Fenice",
       "start" : "2026-10-02",
       "title" : "Neil Thomson conducts Rimsky-Korsakov, Rodrigo and Elgar",
-      "type" : "Concerts 2025\/26",
+      "type" : "Concerti 2025\/ 26",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/neil-thomson-conducts-rimsky-korsakov-rodrigo-and-elgaru35\/",
       "venue" : "Malibran Theatre"
     },
@@ -309,6 +264,15 @@
     {
       "image" : "",
       "source" : "La Fenice",
+      "start" : "2026-10-17",
+      "title" : "Marcin Wasilewski trio",
+      "type" : "VENEZIA JAZZ FESTIVAL FALL EDITION",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/marcin-wasilewski-trio-2\/",
+      "venue" : "Sale Apollinee"
+    },
+    {
+      "image" : "",
+      "source" : "La Fenice",
       "start" : "2026-10-19",
       "title" : "Leo Middea in concerto",
       "type" : "evento in collaborazione",
@@ -370,6 +334,15 @@
       "venue" : "Malibran Theatre"
     },
     {
+      "image" : "",
+      "source" : "La Fenice",
+      "start" : "2026-10-31",
+      "title" : "Atlantico",
+      "type" : "VENEZIA JAZZ FESTIVAL FALL EDITION",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/atlantico\/",
+      "venue" : "Sale Apollinee"
+    },
+    {
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Caiani-e-Coro_01.jpg",
       "source" : "La Fenice",
       "start" : "2026-10-31",
@@ -377,6 +350,15 @@
       "type" : "Concerti 2025\/ 26",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/season-25-2-6concert-conducted-by-alfonso-caiani\/",
       "venue" : "Malibran Theatre"
+    },
+    {
+      "image" : "",
+      "source" : "La Fenice",
+      "start" : "2026-10-31",
+      "title" : "Atlantico",
+      "type" : "VENEZIA JAZZ FESTIVAL FALL EDITION",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/atlantico\/",
+      "venue" : "Sale Apollinee"
     },
     {
       "image" : "",
@@ -485,6 +467,15 @@
       "type" : "Opera 2026\/27",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/fedora\/",
       "venue" : "La Fenice Opera House"
+    },
+    {
+      "image" : "",
+      "source" : "La Fenice",
+      "start" : "2026-11-21",
+      "title" : "Zsigmond Gerlóczy",
+      "type" : "VENEZIA JAZZ FESTIVAL FALL EDITION",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/zsigmond-gerloczy\/",
+      "venue" : "Sale Apollinee"
     },
     {
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.56.50.png",
@@ -1297,7 +1288,7 @@
       "venue" : "Piazza San Marco"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.39.00.png",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/parthenope-e1784546977867.jpg",
       "source" : "La Fenice",
       "start" : "2027-09-02",
       "title" : "Partenope",
@@ -1306,7 +1297,7 @@
       "venue" : "Malibran Theatre"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.39.00.png",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/parthenope-e1784546977867.jpg",
       "source" : "La Fenice",
       "start" : "2027-09-04",
       "title" : "Partenope",
@@ -1315,7 +1306,7 @@
       "venue" : "Malibran Theatre"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.39.00.png",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/parthenope-e1784546977867.jpg",
       "source" : "La Fenice",
       "start" : "2027-09-07",
       "title" : "Partenope",
@@ -1324,7 +1315,7 @@
       "venue" : "Malibran Theatre"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.39.00.png",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/parthenope-e1784546977867.jpg",
       "source" : "La Fenice",
       "start" : "2027-09-09",
       "title" : "Partenope",
@@ -1351,7 +1342,7 @@
       "venue" : "Malibran Theatre"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.39.00.png",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/parthenope-e1784546977867.jpg",
       "source" : "La Fenice",
       "start" : "2027-09-12",
       "title" : "Partenope",
