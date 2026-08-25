@@ -244,6 +244,15 @@
       "venue" : "Teatro Goldoni"
     },
     {
+      "image" : "",
+      "source" : "La Fenice",
+      "start" : "2026-10-14",
+      "title" : "i VOŁOSI",
+      "type" : "evento in collaborazione",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/i-volosi\/",
+      "venue" : "Sale Apollinee"
+    },
+    {
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Screenshot-2025-06-05-alle-10.53.58.png",
       "source" : "La Fenice",
       "start" : "2026-10-16",
@@ -286,15 +295,6 @@
       "title" : "Leo Middea in concerto",
       "type" : "evento in collaborazione",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/leo-middea-in-concerto\/",
-      "venue" : "Sale Apollinee"
-    },
-    {
-      "image" : "",
-      "source" : "La Fenice",
-      "start" : "2026-10-19",
-      "title" : "i VOŁOSI",
-      "type" : "evento in collaborazione",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/i-volosi\/",
       "venue" : "Sale Apollinee"
     },
     {
