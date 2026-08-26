@@ -498,6 +498,15 @@
     {
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.56.50.png",
       "source" : "La Fenice",
+      "start" : "2026-11-22",
+      "title" : "Fedora",
+      "type" : "Opera 2026\/27",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/fedora\/",
+      "venue" : "La Fenice Opera House"
+    },
+    {
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.56.50.png",
+      "source" : "La Fenice",
       "start" : "2026-11-28",
       "title" : "Riccardo Frizza conducts Sinopoli and Perosi",
       "type" : "Concerts 2026\/ 27",
@@ -910,15 +919,6 @@
       "venue" : "La Fenice Opera House"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/arca-di-Noè.jpg",
-      "source" : "La Fenice",
-      "start" : "2027-03-20",
-      "title" : "L'arca di Noè",
-      "type" : "Opera 2026\/27",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/larca-di-noe\/",
-      "venue" : "Malibran Theatre"
-    },
-    {
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.14.06-scaled.png",
       "source" : "La Fenice",
       "start" : "2027-03-20",
@@ -926,6 +926,15 @@
       "type" : "Opera 2026\/27",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/jenufa\/",
       "venue" : "La Fenice Opera House"
+    },
+    {
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/arca-di-Noè.jpg",
+      "source" : "La Fenice",
+      "start" : "2027-03-20",
+      "title" : "L'arca di Noè",
+      "type" : "Opera 2026\/27",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/larca-di-noe\/",
+      "venue" : "Malibran Theatre"
     },
     {
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Andriy-Yurkevych-ph-D.Skvortsov-e1780577220859.jpeg",
