@@ -1,123 +1,6 @@
 {
   "events" : [
     {
-      "image" : "",
-      "source" : "La Fenice",
-      "start" : "2026-09-14",
-      "title" : "L’Antidote in concerto",
-      "type" : "evento in collaborazione",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/lantidote-in-concerto\/",
-      "venue" : "Sale Apollinee"
-    },
-    {
-      "image" : "",
-      "source" : "La Fenice",
-      "start" : "2026-09-17",
-      "title" : "Ettore Pagano e Massimo Spada",
-      "type" : "",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/ettore-pagano-e-massimo-spada-2\/",
-      "venue" : "Sale Apollinee"
-    },
-    {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/ChatGPT-Image-8-lug-2026-12_48_53.png",
-      "source" : "La Fenice",
-      "start" : "2026-09-18",
-      "title" : "Pagliacci",
-      "type" : "Opera 2025\/ 26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/pagliacci\/",
-      "venue" : "Malibran Theatre"
-    },
-    {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/ChatGPT-Image-8-lug-2026-12_48_53.png",
-      "source" : "La Fenice",
-      "start" : "2026-09-20",
-      "title" : "Pagliacci",
-      "type" : "Opera 2025\/ 26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/pagliacci\/",
-      "venue" : "Malibran Theatre"
-    },
-    {
-      "image" : "",
-      "source" : "La Fenice",
-      "start" : "2026-09-21",
-      "title" : "Quartetto Rilke",
-      "type" : "Musikàmera",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/musikamera-quartetto-rilke\/",
-      "venue" : "Sale Apollinee"
-    },
-    {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/ChatGPT-Image-8-lug-2026-12_48_53.png",
-      "source" : "La Fenice",
-      "start" : "2026-09-22",
-      "title" : "Pagliacci",
-      "type" : "Opera 2025\/ 26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/pagliacci\/",
-      "venue" : "Malibran Theatre"
-    },
-    {
-      "image" : "",
-      "source" : "La Fenice",
-      "start" : "2026-09-23",
-      "title" : "Alessandro Carbonare, Francesca Dego and Alessandro Taverna",
-      "type" : "Musikàmera",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/musikamera-alessandro-carbonare-francesca-dego-and-alessandro-taverna\/",
-      "venue" : "Sale Apollinee"
-    },
-    {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/ChatGPT-Image-8-lug-2026-12_48_53.png",
-      "source" : "La Fenice",
-      "start" : "2026-09-24",
-      "title" : "Pagliacci",
-      "type" : "Opera 2025\/ 26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/pagliacci\/",
-      "venue" : "Malibran Theatre"
-    },
-    {
-      "image" : "",
-      "source" : "La Fenice",
-      "start" : "2026-09-24",
-      "title" : "Alessandro Carbonare, Francesca Dego and Alessandro Taverna",
-      "type" : "Musikàmera",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/musikamera-alessandro-carbonare-francesca-dego-and-alessandro-taverna\/",
-      "venue" : "Sale Apollinee"
-    },
-    {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Callegari-Daniele_01-e1784192929755.jpg",
-      "source" : "La Fenice",
-      "start" : "2026-09-25",
-      "title" : "Daniele Callegari conducts Bizet and Čajkovskij",
-      "type" : "Concerts 2025\/26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/season-25-26-daniele-callegari-conducts-bizet-and-cajkovskij\/",
-      "venue" : "Malibran Theatre"
-    },
-    {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/ChatGPT-Image-8-lug-2026-12_48_53.png",
-      "source" : "La Fenice",
-      "start" : "2026-09-26",
-      "title" : "Pagliacci",
-      "type" : "Opera 2025\/ 26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/pagliacci\/",
-      "venue" : "Malibran Theatre"
-    },
-    {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2020\/09\/DSC2909.jpg",
-      "source" : "La Fenice",
-      "start" : "2026-09-27",
-      "title" : "Daniele Callegari conducts Bizet and Čajkovskij",
-      "type" : "Concerti 2025\/ 26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/daniele-callegari-conducts-bizet-and-cajkovskij-u35\/",
-      "venue" : "Malibran Theatre"
-    },
-    {
-      "image" : "",
-      "source" : "La Fenice",
-      "start" : "2026-09-28",
-      "title" : "Gnut &#038; Alessandro D’Alessandro “Dduje Paravise”",
-      "type" : "evento in collaborazione",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/gnut-alessandro-dalessandro-dduje-paravise\/",
-      "venue" : "Sale Apollinee"
-    },
-    {
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Neil-Thomson-Credito3-Rafaella-Pessoa4-e1784192635349.jpg",
       "source" : "La Fenice",
       "start" : "2026-10-01",
@@ -136,7 +19,7 @@
       "venue" : "Sale Apollinee"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/07\/Neil-Thomson-foto-Cicero-Rodrigues.jpg",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/07\/w-Neil-Thomson-Crédito1-Rafaella-Pessoa-e1790591882436.jpg",
       "source" : "La Fenice",
       "start" : "2026-10-02",
       "title" : "Neil Thomson conducts Rimsky-Korsakov, Rodrigo and Elgar",
@@ -157,7 +40,7 @@
       "image" : "",
       "source" : "La Fenice",
       "start" : "2026-10-09",
-      "title" : "The telephone & Trouble in Tahiti",
+      "title" : "The Telephone & Trouble in Tahiti",
       "type" : "Opera 2025\/ 26",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/the-telephone-trouble-in-tahiti\/",
       "venue" : "Teatro Goldoni"
@@ -166,7 +49,7 @@
       "image" : "",
       "source" : "La Fenice",
       "start" : "2026-10-10",
-      "title" : "The telephone & Trouble in Tahiti",
+      "title" : "The Telephone & Trouble in Tahiti",
       "type" : "Opera 2025\/ 26",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/the-telephone-trouble-in-tahiti\/",
       "venue" : "Teatro Goldoni"
@@ -175,7 +58,7 @@
       "image" : "",
       "source" : "La Fenice",
       "start" : "2026-10-11",
-      "title" : "The telephone & Trouble in Tahiti",
+      "title" : "The Telephone & Trouble in Tahiti",
       "type" : "Opera 2025\/ 26",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/the-telephone-trouble-in-tahiti\/",
       "venue" : "Teatro Goldoni"
@@ -184,7 +67,7 @@
       "image" : "",
       "source" : "La Fenice",
       "start" : "2026-10-13",
-      "title" : "The telephone & Trouble in Tahiti",
+      "title" : "The Telephone & Trouble in Tahiti",
       "type" : "Opera 2025\/ 26",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/the-telephone-trouble-in-tahiti\/",
       "venue" : "Teatro Goldoni"
@@ -193,7 +76,7 @@
       "image" : "",
       "source" : "La Fenice",
       "start" : "2026-10-14",
-      "title" : "The telephone & Trouble in Tahiti",
+      "title" : "The Telephone & Trouble in Tahiti",
       "type" : "Opera 2025\/ 26",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/the-telephone-trouble-in-tahiti\/",
       "venue" : "Teatro Goldoni"
@@ -262,6 +145,15 @@
       "venue" : "Sale Apollinee"
     },
     {
+      "image" : "",
+      "source" : "La Fenice",
+      "start" : "2026-10-22",
+      "title" : "La Fenice at the Shanghai Grand Opera House",
+      "type" : "tournée",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/tosca-shanghai-grand-opera-house\/",
+      "venue" : "Shanghai Grand Opera House · Harmony Hall"
+    },
+    {
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/dear-son_Flavia-Tartaglia-6.jpg",
       "source" : "La Fenice",
       "start" : "2026-10-23",
@@ -278,6 +170,15 @@
       "type" : "Musikàmera",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/pavel-berman-and-maria-meerovitch\/",
       "venue" : "Sale Apollinee"
+    },
+    {
+      "image" : "",
+      "source" : "La Fenice",
+      "start" : "2026-10-24",
+      "title" : "La Fenice at the Shanghai Grand Opera House",
+      "type" : "tournée",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/tosca-shanghai-grand-opera-house\/",
+      "venue" : "Shanghai Grand Opera House · Harmony Hall"
     },
     {
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/dear-son_Flavia-Tartaglia-6.jpg",
@@ -301,9 +202,9 @@
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Caiani-e-Coro_01.jpg",
       "source" : "La Fenice",
       "start" : "2026-10-30",
-      "title" : "Concert conducted by Alfonso Caiani",
+      "title" : "Concert conducted by Elena Pierini",
       "type" : "Concerti 2025\/ 26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/season-25-2-6concert-conducted-by-alfonso-caiani\/",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/season-25-2-6concert-conducted-by-elena-pierini\/",
       "venue" : "Malibran Theatre"
     },
     {
@@ -319,9 +220,9 @@
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2025\/06\/Caiani-e-Coro_01.jpg",
       "source" : "La Fenice",
       "start" : "2026-10-31",
-      "title" : "Concert conducted by Alfonso Caiani",
+      "title" : "Concert conducted by Elena Pierini",
       "type" : "Concerti 2025\/ 26",
-      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/season-25-2-6concert-conducted-by-alfonso-caiani\/",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/season-25-2-6concert-conducted-by-elena-pierini\/",
       "venue" : "Malibran Theatre"
     },
     {
@@ -379,7 +280,7 @@
       "venue" : "Malibran Theatre"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.56.50.png",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/fedora-1.jpg",
       "source" : "La Fenice",
       "start" : "2026-11-13",
       "title" : "Fedora",
@@ -388,7 +289,7 @@
       "venue" : "La Fenice Opera House"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.56.50.png",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/fedora-1.jpg",
       "source" : "La Fenice",
       "start" : "2026-11-14",
       "title" : "Fedora",
@@ -397,7 +298,7 @@
       "venue" : "La Fenice Opera House"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.56.50.png",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/fedora-1.jpg",
       "source" : "La Fenice",
       "start" : "2026-11-15",
       "title" : "Fedora",
@@ -406,7 +307,7 @@
       "venue" : "La Fenice Opera House"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.56.50.png",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/fedora-1.jpg",
       "source" : "La Fenice",
       "start" : "2026-11-17",
       "title" : "Fedora",
@@ -415,7 +316,7 @@
       "venue" : "La Fenice Opera House"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.56.50.png",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/fedora-1.jpg",
       "source" : "La Fenice",
       "start" : "2026-11-18",
       "title" : "Fedora",
@@ -424,7 +325,7 @@
       "venue" : "La Fenice Opera House"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.56.50.png",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/fedora-1.jpg",
       "source" : "La Fenice",
       "start" : "2026-11-19",
       "title" : "Fedora",
@@ -433,7 +334,7 @@
       "venue" : "La Fenice Opera House"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.56.50.png",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/fedora-1.jpg",
       "source" : "La Fenice",
       "start" : "2026-11-20",
       "title" : "Fedora",
@@ -451,7 +352,7 @@
       "venue" : "Sale Apollinee"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.56.50.png",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/fedora-1.jpg",
       "source" : "La Fenice",
       "start" : "2026-11-22",
       "title" : "Fedora",
@@ -460,7 +361,7 @@
       "venue" : "La Fenice Opera House"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.56.50.png",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-09-28-alle-12.42.09.png",
       "source" : "La Fenice",
       "start" : "2026-11-28",
       "title" : "Riccardo Frizza conducts Sinopoli and Perosi",
@@ -469,7 +370,7 @@
       "venue" : "La Fenice Opera House"
     },
     {
-      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-06-09-alle-10.56.50.png",
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/Screenshot-2026-09-28-alle-12.42.09.png",
       "source" : "La Fenice",
       "start" : "2026-11-29",
       "title" : "Riccardo Frizza conducts Sinopoli and Perosi",
@@ -592,6 +493,15 @@
       "title" : "New Year’s Concert 2027",
       "type" : "Concerts 2026\/ 27",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/new-years-concert-2027\/",
+      "venue" : "La Fenice Opera House"
+    },
+    {
+      "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2024\/01\/Capodanno-2024_Ufficio-Stampa-Teatro-La-Fenice.png",
+      "source" : "La Fenice",
+      "start" : "2027-01-08",
+      "title" : "Danzando per la Vita - International Ballet Gala",
+      "type" : "evento in collaborazione",
+      "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/gala-internazionale-di-danza\/",
       "venue" : "La Fenice Opera House"
     },
     {
@@ -886,7 +796,7 @@
       "image" : "https:\/\/www.teatrolafenice.it\/wp-content\/uploads\/2026\/06\/arca-di-Noè.jpg",
       "source" : "La Fenice",
       "start" : "2027-03-20",
-      "title" : "L'arca di Noè",
+      "title" : "L’arca di Noè",
       "type" : "Opera 2026\/27",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/larca-di-noe\/",
       "venue" : "Malibran Theatre"
@@ -1264,7 +1174,7 @@
       "image" : "",
       "source" : "La Fenice",
       "start" : "2027-07-10",
-      "title" : "La Fenice in Saint Mark’s Square",
+      "title" : "La Fenice in Saint Mark's Square",
       "type" : "Concerts 2026\/ 27",
       "url" : "https:\/\/www.teatrolafenice.it\/en\/event\/la-fenice-saint-marks-square-2027\/",
       "venue" : "Piazza San Marco"
